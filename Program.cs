@@ -1,17 +1,11 @@
-﻿// Writing to console on same line
-// option #1
-// Console.Write("Hi");
-// Console.Write(" there");
+﻿// "assignment" operator is =
 
-// option #2
-// Console.WriteLine("Hi " + " there");
+// used to declare variables and assign values to them
 
-// + operator (with strings or mix of a string and something else)
-// may cause conversion to string 
-//Console.WriteLine("2" + 2); // 2 + 2 = 22
+// in other languagues we can often just create a variable and make it be something
+// example:
 
-// Console.WriteLine(2 + 2); // 2 + 2 = 4
+var greeting = "Hello"; // var can be used to create a variable wihtout a type, but it should be avoided whenever possible!
 
-
-
+Console.WriteLine(greeting);
 
