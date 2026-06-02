@@ -18,7 +18,7 @@ Console.WriteLine("Enter the second number: ");
 int secondNumber = int.Parse(Console.ReadLine());
 
 // store the result (division) of the two numbers
-int result = firstNumber / secondNumber; 
+double result = (double)firstNumber / secondNumber; 
 
 // print the result for the user
 Console.WriteLine("The result is:");
