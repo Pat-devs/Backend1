@@ -17,9 +17,12 @@ Console.WriteLine("Enter the second number: ");
 // prompt user for the second number and store it in a variable
 int secondNumber = int.Parse(Console.ReadLine());
 
-// store the result (sum) of the two numbers
-int result = firstNumber + secondNumber; 
+// store the result (division) of the two numbers
+int result = firstNumber / secondNumber; 
 
 // print the result for the user
 Console.WriteLine("The result is:");
-Console.WriteLine(firstNumber + " + " + secondNumber + " = " + result);
+Console.WriteLine(firstNumber + " / " + secondNumber + " = " + result);
+
+// Above calculator works fine, we can adjust the operator on line 21 and on line 25 (to either +,-,* or /)
+// a small bug may happen if we try to divide by zero, this will cause a DivideByZero exception.
