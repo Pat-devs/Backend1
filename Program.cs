@@ -22,7 +22,7 @@
 // Console.WriteLine(!!false); // this will flip the "false" twice (to true, then again to false)
 // Console.WriteLine(!!!!!!!!!!!!!!false); // We can supply multiple not operators 
 
-int userAge = 25;
+int userAge = 17;
 
 // Console.WriteLine(userAge >= 18); // check number is 18 og greater
 
@@ -35,8 +35,12 @@ if (userAge >= 18)
     // code inside here runs only if condition (userAge >= 18) is Truthy
     Console.WriteLine("Hello, welcome in!");
 }
+if (userAge < 18) // user is below 18
+{
+    Console.WriteLine("Hello, we cannot welcome you inside!");
+}
 
 // code here runs anyway, regardless of userAge value
 
-Console.WriteLine("We cannot allow you in!");
+Console.WriteLine("Remaining code...");
 
