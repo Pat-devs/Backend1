@@ -1,53 +1,11 @@
 ﻿// Control flow intro
 
-// string myText = "Hi"; // "public"
-
-
-
-// Example scope
-{
-    string myText = "Hi";
-
-    Console.WriteLine("Line 1");
-    Console.WriteLine("Line 2");
-    Console.WriteLine("Line 3");
-
-
-    Console.WriteLine(myText);
-
-    // A scope within another scope :)
-    {
-    Console.WriteLine(myText);
-    // A scope within another scope :)
-    {
-        Console.WriteLine(myText);
-        // A scope within another scope :)
-        {
-            Console.WriteLine(myText);
-            // A scope within another scope :)
-            {
-                Console.WriteLine(myText);
-                // A scope within another scope :)
-                {
-                    Console.WriteLine(myText);
-                    
-                }
-            }
-        }
-    }
-    }
-
-}
-
-
 // What a conditional has to 'compute' to? Is a boolean (true or false).
 
-if (true)
-{
-    // scope of the if staement
-    Console.WriteLine("Line 4");
+// how make things "truthy" or "falsy"
 
-    // Console.WriteLine(myText);
-}
+// Console.WriteLine(2 > 2); // > operator checks if the left side is larger than the right side and computes to either true or false
 
-//Console.WriteLine(myText);
+// Console.WriteLine(2 < 2); // as line above but the opposite way (left vs right)
+
+// Console.WriteLine(5 > 4); // True
