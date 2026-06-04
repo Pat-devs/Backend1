@@ -14,26 +14,14 @@ int hour = 0;
 // AND operator: &&
 // OR operator: ||
 
-if (hour < 0)
+if (hour < 0 || hour > 23)
 {
     // show error msg
+    Console.WriteLine("Invalid time!");
 }
-if (hour > 23)
+else
 {
-    // also show same error msg
+    // user entered a valid time
+    
+
 }
-
-// Example of && (and operator)
-// Console.Write(true && true); // true and true is true
-// Console.Write(false && true); // any combination of true and false is false
-// Console.Write(true && true  && true  && true  && true);
-
-// Example of || (and operator)
-// Console.Write(false || false || false); // true or true is true
-
-// combinatio of both OR + AND
-
-Console.Write(true && false || true);
-
-// we can use () to order the statement groups as we wish
-Console.Write(true && (false || true));
