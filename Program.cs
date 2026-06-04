@@ -3,13 +3,18 @@
 
 // check if a number is even or odd and print proper message
 
-int number = 3;
 
-if (number % 2 == 0)
+string secretPassword = "l33th4x0r";
+
+Console.Write("Enter password: ");
+string userInputPassword = Console.ReadLine();
+
+// check if user entered correct password
+if (userInputPassword == secretPassword)
 {
-    Console.WriteLine("The number is even.");
+    Console.WriteLine("Access Granted!");
 }
 else
 {
-    Console.WriteLine("The number is odd.");
+    Console.WriteLine("Access Denied!");
 }
