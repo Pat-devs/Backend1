@@ -14,6 +14,29 @@
 
 
     Console.WriteLine(myText);
+
+    // A scope within another scope :)
+    {
+    Console.WriteLine(myText);
+    // A scope within another scope :)
+    {
+        Console.WriteLine(myText);
+        // A scope within another scope :)
+        {
+            Console.WriteLine(myText);
+            // A scope within another scope :)
+            {
+                Console.WriteLine(myText);
+                // A scope within another scope :)
+                {
+                    Console.WriteLine(myText);
+                    
+                }
+            }
+        }
+    }
+    }
+
 }
 
 
@@ -24,7 +47,7 @@ if (true)
     // scope of the if staement
     Console.WriteLine("Line 4");
 
-    Console.WriteLine(myText);
+    // Console.WriteLine(myText);
 }
 
-Console.WriteLine(myText);
+//Console.WriteLine(myText);
