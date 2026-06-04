@@ -1,4 +1,5 @@
-﻿// Control flow intro
+﻿Console.Clear();
+// Control flow intro
 
 // What a conditional has to 'compute' to? Is a boolean (true or false).
 
@@ -17,6 +18,19 @@
 //Console.WriteLine(2 != 2); // ! means NOT. So we ask if 2 does not euqual 2.: False
 //Console.WriteLine(500 != 400); // True
 
-Console.WriteLine(!true); // ! infront of a "truthy statemet" inverts it to False
-Console.WriteLine(!!false); // this will flip the "false" twice (to true, then again to false)
-Console.WriteLine(!!!!!!!!!!!!!!false); // We can supply multiple not operators 
+// Console.WriteLine(!true); // ! infront of a "truthy statemet" inverts it to False
+// Console.WriteLine(!!false); // this will flip the "false" twice (to true, then again to false)
+// Console.WriteLine(!!!!!!!!!!!!!!false); // We can supply multiple not operators 
+
+int userAge = 16;
+
+// Console.WriteLine(userAge >= 18); // check number is 18 og greater
+
+// Console.WriteLine(userAge <= 50); // check if number is less or equal to something
+
+// Single check: greet the user if they are an adult (18+)
+
+if (userAge >= 18)
+{
+    Console.WriteLine("Hello, welcome in!");
+}
